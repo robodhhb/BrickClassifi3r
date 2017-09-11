@@ -1,4 +1,47 @@
-﻿Tools and data for the neural network of the BrickClassifi3r Lego Mindstorms EV3 roboter. 
+Tools und Daten für das neuronale Netzwerk des BrickClassifi3r Lego Mindstorms EV3 roboter
+(see English version below)
+
+Voraussetzungen auf dem PC
+1. Ein 64bit Windows PC mit Windows 7 oder höher.
+
+2. Python 3.5.2 (64 bit Version) (Click "Add Python 3.5 to path" im installation dialog)
+   Download-Adresse: 
+   https://www.python.org/ftp/python/3.5.2/python-3.5.2-amd64.exe
+
+3. Library "TensorFlow" (1.1 oder höher)
+   Installation mit der Eingabeaufforderung:
+   pip3 install --ignore-installed --upgrade tensorflow
+
+Das Trainingsprogramm:  train_NN.py (Version 1.1)
+Dieses Programm dient zum Training des neuronalen Netzes auf dem PC. 
+Es muss im gleichen Ordner liegen wie die folgenden 4 Dateien:
+   xTrain_TwoCubesCylinder375-24.csv
+   yTrain_TwoCubesCylinder375-3.csv
+   xTest_TwoCubesCylinder300-24.csv
+   yTest_TwoCubesCylinder300-3.csv
+Das Programm wird gestartet mit: : python train_NN.py
+Folgende Modelldateien werden erzeugt: 
+   NNbiases_b1.csv
+   NNbiases_out.csv
+   NNweights_h1.csv
+   NNweights_out.csv
+sowie die Modelldateien für den Lego Mindstorm EV3 roboter
+   NNbiases_b1.rtf
+   NNbiases_out.rtf
+   NNweights_h1.rtf
+   NNweights_out.rtf
+Vorhandene Dateien werden überschrieben.
+
+Installation der Modelldateien auf dem BrickClassifi3r EV 3 Lego Roboter: 
+Verwenden sie den Speicher-Browser der Lego-Entwicklungsumgebung, um die 
+4 rtf-Dateien in das Projektverzeichnis der BrickClassifi3r-Anwendung zu kopieren.
+
+Utility predict.py
+Verwenden sie dieses Programm, um einzelne Merkmalsvektoren mit dem neuronlen Netz
+mit Hilfe des Modells (CSV-Dateien) auf dem PC zu klassifizieren. 
+   
+--Englsh version--
+Tools and data for the neural network of the BrickClassifi3r Lego Mindstorms EV3 roboter. 
 
 Prerequisites on the PC
 1. A 64bit Windows PC with Windows 7 or higher.
