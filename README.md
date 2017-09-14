@@ -4,7 +4,7 @@ Software for the BrickClassifi3r Lego Mindstorms EV3 robot
 Willkommen beim BrickClassifi3r Roboter!
 (see English version below)
 
-Dieser Lego Mindstorms EV3 Roboter verwendet ein neuronales Netz, um ein Kubus, ein Zylinder oder ein kleinen Kubus
+Dieser Lego Mindstorms EV3 Roboter verwendet ein neuronales Netz, um einen Kubus, einen Zylinder oder einen kleinen Kubus
 zu erkennen, der auf ein Transportband gelegt wurde. Ein Video zeigt, wie der Roboter funktioniert. Jedes Objekt, das 
 auf das Transportband gelegt wird, wird von einem IR-Sensor für eine Sekunde alle 40ms gescannt. 
 Dabei entstehen 24 Entfernungsmesswerte, die eines der drei Objekte repräsentieren.  Diese Daten werden
