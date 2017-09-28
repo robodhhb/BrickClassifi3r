@@ -26,6 +26,6 @@ The neural network has been trained before by a machine learning algorithm with 
 375 training examples - 125 examples for each object. 
  
 For more information have a look at the first two folders: One for the Lego Mindstorms project and the other
-for the neural network training on the PC. The third folder contains files for 3D-printing the cube, the cyliner
+for the neural network training on the PC. The third folder contains files for 3D-printing the cube, the cylinder
 and the small cube. 
  
