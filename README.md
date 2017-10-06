@@ -14,6 +14,8 @@ Das neuronale Netz wurde mit der Technik des maschinellen Lernens mit TensorFlow
 (125 pro Objekt) trainiert. 
 Für weitere Informationen siehe die zwei ersten Ordner in diesem Repository.  Der dritte Ordner enthält Dateien,
 mit denen ein Kubus, ein Zyliner und ein kleiner Kubus auf einem 3D-Drucker ausgedruckt werden können.
+Dieses Projekt ist ausführlich im Artikel "KI im Infrarotlichbezirk" in der Ausgabe 22 der c't vom 14.10.2017
+auf S. 168-173 beschrieben.
 
 Welcome to the BrickClassifi3r robot!
 
@@ -28,4 +30,5 @@ The neural network has been trained before by a machine learning algorithm with 
 For more information have a look at the first two folders: One for the Lego Mindstorms project and the other
 for the neural network training on the PC. The third folder contains files for 3D-printing the cube, the cylinder
 and the small cube. 
- 
+This project is described in the article "KI im Infrarotlichbezirk" of the german computer magazine "c't", 22, 14.10.2017,
+p. 168-173 (www.ct.de)
