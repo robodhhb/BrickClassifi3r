@@ -35,6 +35,7 @@ Vorhandene Dateien werden überschrieben.
 Installation der Modelldateien auf dem BrickClassifi3r EV 3 Lego Roboter: 
 Verwenden sie den Speicher-Browser der Lego-Entwicklungsumgebung, um die 
 4 rtf-Dateien in das Projektverzeichnis der BrickClassifi3r-Anwendung zu kopieren.
+Die Trainingsdateien wurden mit Objekten aus roten Legosteinen erstellt. 
 
 Utility predict.py
 Verwenden sie dieses Programm, um einzelne Merkmalsvektoren mit dem neuronlen Netz
@@ -77,6 +78,7 @@ Existing files are deleted.
 Installation of the model on the BrickClassifi3r EV 3 Lego roboter: 
 Use the memory-browser to put the 4 rtf-Files into the project directory of
 the BrickClassifi3r_V1 application. 
+The training data was created with objects built with red lego bricks.
    
 
 Utility predict.py
