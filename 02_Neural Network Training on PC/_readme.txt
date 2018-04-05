@@ -41,9 +41,11 @@ Verwenden sie den Speicher-Browser der Lego-Entwicklungsumgebung, um die
 4 rtf-Dateien in das Projektverzeichnis der BrickClassifi3r-Anwendung zu kopieren.
 Die Trainingsdateien wurden mit Objekten aus roten Legosteinen erstellt. 
 
-Utility predict.py
-Verwenden sie dieses Programm, um einzelne Merkmalsvektoren mit dem neuronlen Netz
-mit Hilfe des Modells (CSV-Dateien) auf dem PC zu klassifizieren. 
+Utilities predict.py und Inferencing With Excel.xslx
+Verwenden sie predict.py, um einzelne Merkmalsvektoren mit dem neuronlen Netz
+mit Hilfe des Modells (CSV-Dateien) auf dem PC zu klassifizieren. Mit  Excel-Datei
+können sie ebenfalls einzelne Merkmalsvektoren mit dem neuronalen Netz klassifizieren 
+lassen.
    
 --Englsh version--
 Tools and data for the neural network of the BrickClassifi3r Lego Mindstorms EV3 roboter. 
@@ -89,8 +91,9 @@ the BrickClassifi3r_V1 application.
 The training data was created with objects built with red lego bricks.
    
 
-Utility predict.py
-Use this program to classify single feature vectors with the neural network 
-using the *.csv model files on the PC. 
+Utilities predict.py and Inferencing With Excel.xslx
+Use predict.py to classify single feature vectors with the neural network 
+using the *.csv model files on the PC. The Excel-sheet does the same 
+using Excel.
  
 
