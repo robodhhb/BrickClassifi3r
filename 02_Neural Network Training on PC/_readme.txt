@@ -14,7 +14,7 @@ Voraussetzungen auf dem PC
    Installation mit der Eingabeaufforderung:
    pip3 install --ignore-installed --upgrade tensorflow
    
-   Das Projekt ist bis zur Tensoeflow-Version 1.8 erfolgreich getestet. 
+   Das Projekt ist bis zur TensorFlow-Version 1.8 erfolgreich getestet. 
 
 Das Trainingsprogramm:  train_NN.py (Version 1.2)
 Dieses Programm dient zum Training des neuronalen Netzes auf dem PC. 
