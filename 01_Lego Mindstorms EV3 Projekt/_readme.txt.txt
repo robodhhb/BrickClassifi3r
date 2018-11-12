@@ -7,6 +7,10 @@ Hinweis: Um einen hohen Erkennungsquote zu erzielen, sollte der Roboter vor eine
 so dass das Licht von hinten auf den Roboter fällt. Die 4 rtf-files (Model) wurden mit Trainingsdaten von roten Legosteinen
 erstellt. 
 
+Bildstrecke zum Zusammenbau des Roboters: 
+https://www.heise.de/ct/artikel/Hardware-fuer-KI-Experimente-mit-Lego-3861722.html
+
+
 Installation:
 1. Install BrickClassifi3r_V1.ev3 on the robot. 
 2. Use the Menory-Browser of the Lego-SW to put the four rtf-files in the project directory.
@@ -16,3 +20,7 @@ Hint: To achieve a high accuracy position the robot in a way that it gets daylig
 The model was created with training data of red lego bricks. The weights and biases file have an accuracy of 95.6% on 300 test data. 
 
 See the video how it works!
+
+Construction manual as sequence of steps:
+https://www.heise.de/ct/artikel/Hardware-fuer-KI-Experimente-mit-Lego-3861722.html
+
