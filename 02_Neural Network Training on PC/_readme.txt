@@ -10,13 +10,13 @@ Voraussetzungen auf dem PC
    
    Das Projekt kann auch mit Python 3.6.3 (64bit Version) alternativ verwendet werden.
 
-3. Library "TensorFlow" (1.1 oder höher)
+3. Library "TensorFlow" (1.5 oder höher)
    Installation mit der Eingabeaufforderung:
    pip3 install --ignore-installed --upgrade tensorflow
    
-   Das Projekt ist bis zur TensorFlow-Version 1.8 erfolgreich getestet. 
+   Das Projekt ist bis zur TensorFlow-Version 1.12 erfolgreich getestet. 
 
-Das Trainingsprogramm:  train_NN.py (Version 1.2)
+Das Trainingsprogramm:  train_NN.py (Version 1.3)
 Dieses Programm dient zum Training des neuronalen Netzes auf dem PC. 
 Es muss im gleichen Ordner liegen wie die folgenden 4 Dateien:
    xTrain_TwoCubesCylinder375-24.csv
@@ -59,13 +59,13 @@ Prerequisites on the PC
    
    Alternatively you can use Python 3.6.3 (64 bit). 
 
-3. Library "TensorFlow" (1.1 or higher)
+3. Library "TensorFlow" (1.5 or higher)
    Installation with a console dialog:
    pip3 install --ignore-installed --upgrade tensorflow
    
-   This project is successfully tested up to TensorFlow Version 1.8
+   This project is successfully tested up to TensorFlow Version 1.12
 
-The training program:  train_NN.py (Version 1.2)
+The training program:  train_NN.py (Version 1.3)
 This program is used for the training of the neural network. 
 It has to be in the same directory of the PC like the following 4 files:
    xTrain_TwoCubesCylinder375-24.csv
