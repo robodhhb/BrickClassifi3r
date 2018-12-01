@@ -3,7 +3,7 @@
 # BrickClassifi3r Roboters mit Hilfe von TensorFlow
 # 
 # Autor: Detlef Heinze 
-# Version: 1.2
+# Version: 1.3    Use TensorFlow Version >= 1.5
 #####################################################
 import tensorflow as tf  
 from numpy import loadtxt, savetxt, reshape 
@@ -15,7 +15,7 @@ import datetime as dt
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
 
-print('Training eines Neuronalen Netzes(V1.2)\n')
+print('Training eines Neuronalen Netzes(V1.3)\n')
 print('TensorFlow Version: ' + tf.__version__)
 start= dt.datetime.now()
 
@@ -74,11 +74,7 @@ biases = {
 predict = multilayer_perceptron(x, weights, biases)
 
 # Kosten und den Optimizer definieren 
-# Ab TensorFlow Version 1.5 modifizierte softmax-Methode verwenden)
-if tf.__version__ < '1.5':
-    cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits=predict, labels=y))
-else:
-    cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits_v2(logits=predict, labels=y))
+cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits_v2(logits=predict, labels=y))
 
 optimizer =tf.train.AdamOptimizer(learning_rate=learning_rate).minimize(cost)
 
