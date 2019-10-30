@@ -20,7 +20,7 @@ https://www.heise.de/ct/ausgabe/2017-22-Einstieg-ins-maschinelle-Lernen-mit-dem-
 
 Welcome to the BrickClassifi3r robot!
 
-This Lego Mindstorms EV3 robot uses a neural network to recognize a cube, a cylinder or a small cube put on a conveyor belt. 
+This Lego Mindstorms EV3 robot uses a neural network to recognize a cube, a cylinder, or a small cube put on a conveyor belt. 
 See the video how it works. Each object on the conveyor belt is scanned by an IR-sensor every 40ms for about a second. 
 The resulting data are 24 distance values representing one of the three objects. 
 This data is fed into the neural network on the robot to classify the object within 180ms.
