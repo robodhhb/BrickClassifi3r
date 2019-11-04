@@ -5,7 +5,12 @@
 # Autor: Detlef Heinze 
 # Version: 1.3    Use TensorFlow Version >= 1.5
 #####################################################
-import tensorflow as tf  
+import tensorflow as tf
+#TensorFlow 2.0 user: 
+#Replace import for tensorflow above by the following 
+#two lines:
+#import tensorflow.compat.v1 as tf
+#tf.disable_v2_behavior()
 from numpy import loadtxt, savetxt, reshape 
 import datetime as dt
 
