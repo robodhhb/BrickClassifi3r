@@ -15,6 +15,7 @@ Voraussetzungen auf dem PC
    pip3 install --ignore-installed --upgrade tensorflow
    
    Das Projekt ist bis zur TensorFlow-Version 1.15.0 erfolgreich getestet. 
+   Siehe Hinweise im Code für TensorFlow 2.0 user.
 
 Das Trainingsprogramm:  train_NN.py (Version 1.3)
 Dieses Programm dient zum Training des neuronalen Netzes auf dem PC. 
@@ -64,6 +65,7 @@ Prerequisites on the PC
    pip3 install --ignore-installed --upgrade tensorflow
    
    This project is successfully tested up to TensorFlow Version 1.15.0
+   See hints in the code for TensorFlow 2.0 user.
 
 The training program:  train_NN.py (Version 1.3)
 This program is used for the training of the neural network. 
