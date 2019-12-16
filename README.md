@@ -18,6 +18,8 @@ Dieses Projekt ist ausführlich im Artikel "KI im Infrarotlichtbezirk" in der Au
 auf S. 168-173 beschrieben.
 https://www.heise.de/ct/ausgabe/2017-22-Einstieg-ins-maschinelle-Lernen-mit-dem-Roboterbaukasten-LEGO-Mindstorms-EV3-3851835.html?wt_mc=print.ct.2017.22.168
 
+Ein weiteres interessantes Projekt: https://github.com/robodhhb/RoboPiCam
+
 Welcome to the BrickClassifi3r robot!
 
 This Lego Mindstorms EV3 robot uses a neural network to recognize a cube, a cylinder, or a small cube put on a conveyor belt. 
@@ -34,3 +36,6 @@ and the small cube.
 This project is described in the article "KI im Infrarotlichtbezirk" of the german computer magazine "c't", 22, 14.10.2017,
 p. 168-173
 https://www.heise.de/ct/ausgabe/2017-22-Einstieg-ins-maschinelle-Lernen-mit-dem-Roboterbaukasten-LEGO-Mindstorms-EV3-3851835.html?wt_mc=print.ct.2017.22.168
+
+See another interesting project: https://github.com/robodhhb/RoboPiCam
+
