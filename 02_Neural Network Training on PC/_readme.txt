@@ -8,7 +8,7 @@ Voraussetzungen auf dem PC
    Download-Adresse: 
    https://www.python.org/ftp/python/3.5.2/python-3.5.2-amd64.exe
    
-   Das Projekt kann auch mit Python 3.6.3 (64bit Version) alternativ verwendet werden.
+   Das Projekt kann auch mit Python 3.6.x oder 3.7.x (64bit Version) alternativ verwendet werden.
 
 3. Library "TensorFlow" (1.5 oder höher)
    Installation mit der Eingabeaufforderung:
@@ -16,7 +16,7 @@ Voraussetzungen auf dem PC
    
    Das Projekt ist bis zur TensorFlow-Version 1.15.0 erfolgreich getestet. 
    Siehe Hinweise im Code für TensorFlow 2.0 user.
-   train_NN_V2.py läuft unter TensorFlow 2.0.0
+   train_NN_V2.py läuft unter TensorFlow 2.0.0 und TensorFLow 2.3.0
 
 Das Trainingsprogramm:  train_NN.py (Version 1.3) oder train_NN_V2.py
 Dieses Programm dient zum Training des neuronalen Netzes auf dem PC. 
@@ -59,7 +59,7 @@ Prerequisites on the PC
    Download-Address: 
    https://www.python.org/ftp/python/3.5.2/python-3.5.2-amd64.exe
    
-   Alternatively you can use Python 3.6.3 (64 bit). 
+   Alternatively you can use Python 3.6.X and 3.7.x (64 bit). 
 
 3. Library "TensorFlow" (1.5 or higher)
    Installation with a console dialog:
@@ -67,7 +67,7 @@ Prerequisites on the PC
    
    This project is successfully tested up to TensorFlow Version 1.15.0
    See hints in the code for TensorFlow 2.0 user.
-   train_NN_V2.py runs under TensorFlow 2.0.0
+   train_NN_V2.py runs under TensorFlow 2.0.0 and Tensorflow 2.3.0
 
 The training program:  train_NN.py (Version 1.3) or train_NN_V2.py
 This program is used for the training of the neural network. 
