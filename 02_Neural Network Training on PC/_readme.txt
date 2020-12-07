@@ -16,7 +16,8 @@ Voraussetzungen auf dem PC
    
    Das Projekt ist bis zur TensorFlow-Version 1.15.0 erfolgreich getestet. 
    Siehe Hinweise im Code für TensorFlow 2.0 user.
-   train_NN_V2.py läuft unter TensorFlow 2.0.0 und TensorFLow 2.3.0
+   train_NN_V2.py läuft unter TensorFlow 2.0.0 und TensorFlow 2.3.0
+   train_NN_tfkerasTF2.py benutzt das interne KERAS ab TensorFlow 2.0.0
 
 Das Trainingsprogramm:  train_NN.py (Version 1.3) oder train_NN_V2.py
 Dieses Programm dient zum Training des neuronalen Netzes auf dem PC. 
@@ -68,6 +69,7 @@ Prerequisites on the PC
    This project is successfully tested up to TensorFlow Version 1.15.0
    See hints in the code for TensorFlow 2.0 user.
    train_NN_V2.py runs under TensorFlow 2.0.0 and Tensorflow 2.3.0
+   train_NN_tfkerasTF2.py uses the TF internal KERAS starting with TensorFlow 2.0.0
 
 The training program:  train_NN.py (Version 1.3) or train_NN_V2.py
 This program is used for the training of the neural network. 
