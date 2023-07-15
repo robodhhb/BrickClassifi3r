@@ -16,7 +16,7 @@ Für weitere Informationen siehe die zwei ersten Ordner in diesem Repository.  D
 mit denen ein Kubus, ein Zyliner und ein kleiner Kubus auf einem 3D-Drucker ausgedruckt werden können.
 Dieses Projekt ist ausführlich im Artikel "KI im Infrarotlichtbezirk" in der Ausgabe 22 der c't vom 14.10.2017
 auf S. 168-173 beschrieben.
-https://www.heise.de/ct/ausgabe/2017-22-Einstieg-ins-maschinelle-Lernen-mit-dem-Roboterbaukasten-LEGO-Mindstorms-EV3-3851835.html?wt_mc=print.ct.2017.22.168
+https://www.heise.de/select/ct/2017/22/1508791524972546
 
 Ein weiteres interessantes Projekt: https://github.com/robodhhb/RoboPiCam
 
@@ -35,7 +35,7 @@ for the neural network training on the PC. The third folder contains files for 3
 and the small cube. 
 This project is described in the article "KI im Infrarotlichtbezirk" of the german computer magazine "c't", 22, 14.10.2017,
 p. 168-173
-https://www.heise.de/ct/ausgabe/2017-22-Einstieg-ins-maschinelle-Lernen-mit-dem-Roboterbaukasten-LEGO-Mindstorms-EV3-3851835.html?wt_mc=print.ct.2017.22.168
+https://www.heise.de/select/ct/2017/22/1508791524972546
 
 See another interesting project: https://github.com/robodhhb/RoboPiCam
 
